@@ -1,0 +1,26 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 NPROC_PER_NODE=4 swift sft \
+    --model Qwen/Qwen3-14B \
+    --loss_scale ignore_empty_think \
+    --train_type lora \
+    --lora_rank 8 \
+    --lora_alpha 32 \
+    --dataset ./dataset/train/train_sft_emptythink_split_fixed_flag.jsonl \
+    --val_dataset ./dataset/val/val_dataset.jsonl \
+    --use_liger_kernel true \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 2 \
+    --torch_dtype bfloat16 \
+    --gradient_checkpointing true \
+    --learning_rate 1e-4 \
+    --target_modules all-linear \
+    --logging_steps 1 \
+    --save_strategy steps \
+    --eval_steps 60 \
+    --save_steps 60 \
+    --save_total_limit 12 \
+    --dataloader_num_workers 4 \
+    --packing false \
+    --seed 42 \
+    --output_dir "your path" \
+    --deepspeed zero3 \
