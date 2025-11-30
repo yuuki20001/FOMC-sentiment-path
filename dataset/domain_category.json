@@ -1,0 +1,1918 @@
+{
+  "Economic_Context": {
+    "Financial_Market_Conditions": {
+      "Overall_Market_Environment_And_Sentiment": [
+        {
+          "category_template": "General Financial Conditions Assessment",
+          "underlying_specific_entities": [
+            "financial conditions",
+            "financial developments",
+            "domestic financial developments",
+            "international financial developments",
+            "market stability indicators",
+            "financial stability",
+            "market conditions",
+            "domestic developments"
+          ]
+        },
+        {
+          "category_template": "Market Sentiment Indicators",
+          "underlying_specific_entities": [
+            "VIX (Cboe Volatility Index)",
+            "fear & greed index",
+            "market sentiment",
+            "investor confidence",
+            "business confidence",
+            "consumer confidence",
+            "market expectations",
+            "uncertainty",
+            "investor sentiment"
+          ]
+        },
+        {
+          "category_template": "Market Volatility Levels",
+          "underlying_specific_entities": [
+            "market volatility",
+            "volatility"
+          ]
+        },
+        {
+          "category_template": "Market Liquidity Conditions",
+          "underlying_specific_entities": [
+            "market liquidity",
+            "liquidity"
+          ]
+        },
+        {
+          "category_template": "Investor Risk Appetite",
+          "underlying_specific_entities": [
+            "investor risk appetite",
+            "risk appetite"
+          ]
+        },
+        {
+          "category_template": "Safe-Haven Asset Flows",
+          "underlying_specific_entities": [
+            "safe-haven asset flows"
+          ]
+        }
+      ],
+      "Interest_Rates_Credit_And_Yields": [
+        {
+          "category_template": "General Interest Rate Levels",
+          "underlying_specific_entities": [
+            "interest rates",
+            "market interest rates",
+            "long-term interest rates",
+            "short-term rates",
+            "real interest rate",
+            "real interest rates",
+            "loan rates",
+            "mortgage interest rates",
+            "policy interest rates",
+            "benchmark interest rate",
+            "key interest rate",
+            "overnight interest rate",
+            "deposit rate"
+          ]
+        },
+        {
+          "category_template": "Key Benchmark Interest Rates",
+          "underlying_specific_entities": [
+            "federal funds rate",
+            "SOFR (Secured Overnight Financing Rate)",
+            "Libor (London Interbank Offered Rate)",
+            "discount rate"
+          ]
+        },
+        {
+          "category_template": "Treasury Yields and Curve Dynamics",
+          "underlying_specific_entities": [
+            "Treasury yields",
+            "10-year Treasury yield",
+            "treasury yield",
+            "yield curve",
+            "bond yields",
+            "yield",
+            "yields"
+          ]
+        },
+        {
+          "category_template": "Credit Market Conditions",
+          "underlying_specific_entities": [
+            "credit conditions",
+            "credit",
+            "credit flow",
+            "credit quality",
+            "credit spreads",
+            "spread",
+            "credit standards",
+            "lending standards",
+            "leasing"
+          ]
+        },
+        {
+          "category_template": "Borrowing Costs and Lending Activity",
+          "underlying_specific_entities": [
+            "borrowing",
+            "borrowing cost",
+            "lending",
+            "loan demand",
+            "loans",
+            "financing",
+            "debt growth"
+          ]
+        },
+        {
+          "category_template": "Delinquency Rates",
+          "underlying_specific_entities": [
+            "delinquency rates",
+            "delinquencies"
+          ]
+        },
+        {
+          "category_template": "Money Market Conditions",
+          "underlying_specific_entities": [
+            "money market",
+            "money market mutual funds",
+            "commercial paper",
+            "repo market",
+            "repurchase agreements",
+            "overnight reserves",
+            "short-term funding markets"
+          ]
+        }
+      ],
+      "Equity_Markets": [
+        {
+          "category_template": "Equity Market Performance and Indices",
+          "underlying_specific_entities": [
+            "equity prices",
+            "share prices",
+            "stock market",
+            "stock prices",
+            "S&P500",
+            "Dow Jones Industrial Average",
+            "Nasdaq Composite",
+            "Nasdaq-100",
+            "Russell 2000",
+            "stocks",
+            "equities",
+            "financial markets (equity context)"
+          ]
+        },
+        {
+          "category_template": "Market Capitalization and Equity Wealth",
+          "underlying_specific_entities": [
+            "market capitalization",
+            "equity wealth"
+          ]
+        },
+        {
+          "category_template": "Equity Issuance Activity",
+          "underlying_specific_entities": [
+            "equity issuance"
+          ]
+        },
+        {
+          "category_template": "Specific Equity Segments",
+          "underlying_specific_entities": [
+            "tech stocks",
+            "value stocks",
+            "growth stocks"
+          ]
+        },
+        {
+          "category_template": "Equity Investment Vehicles",
+          "underlying_specific_entities": [
+            "stock funds",
+            "ETFs (Exchange-Traded Funds)",
+            "meme stocks"
+          ]
+        }
+      ],
+      "Debt_And_Securities_Markets": [
+        {
+          "category_template": "Overall Debt and Securities Market Conditions",
+          "underlying_specific_entities": [
+            "debt and equity markets",
+            "securities markets"
+          ]
+        },
+        {
+          "category_template": "Government Securities",
+          "underlying_specific_entities": [
+            "U.S. Treasurys",
+            "treasury securities",
+            "sovereign bonds",
+            "government bonds",
+            "bonds (government context)"
+          ]
+        },
+        {
+          "category_template": "Corporate Debt Securities",
+          "underlying_specific_entities": [
+            "corporate bonds",
+            "investment-grade bonds",
+            "high-yield bonds",
+            "junk bonds"
+          ]
+        },
+        {
+          "category_template": "Municipal Bonds",
+          "underlying_specific_entities": [
+            "municipal bonds",
+            "municipal"
+          ]
+        },
+        {
+          "category_template": "Asset-Backed Securities",
+          "underlying_specific_entities": [
+            "mortgage-backed securities",
+            "CLOs (Collateralized Loan Obligations)",
+            "asset-backed securities"
+          ]
+        },
+        {
+          "category_template": "Specific Financial Instruments",
+          "underlying_specific_entities": [
+            "coupon swap",
+            "swaps",
+            "dollar roll"
+          ]
+        },
+        {
+          "category_template": "Debt Issuance and Trading",
+          "underlying_specific_entities": [
+            "bond issuance",
+            "debt sales",
+            "debt securities trading"
+          ]
+        },
+        {
+          "category_template": "Asset Portfolio Composition and Flows",
+          "underlying_specific_entities": [
+            "asset portfolio composition and flows (institutional and retail)",
+            "assets",
+            "liabilities",
+            "balance sheet (financial instrument context)"
+          ]
+        },
+        {
+          "category_template": "Fixed Income Market Dynamics",
+          "underlying_specific_entities": [
+            "fixed income market dynamics"
+          ]
+        },
+        {
+          "category_template": "Private Credit Markets",
+          "underlying_specific_entities": [
+             "private credit markets"
+          ]
+        }
+      ],
+      "Foreign_Exchange_Markets": [
+        {
+          "category_template": "Foreign Exchange Rates and Developments",
+          "underlying_specific_entities": [
+            "foreign exchange rates and developments",
+            "exchange rate",
+            "foreign exchange"
+          ]
+        },
+        {
+          "category_template": "Major Currencies and Indices",
+          "underlying_specific_entities": [
+            "U.S. Dollar",
+            "U.S. Dollar Index",
+            "Euro",
+            "Yen",
+            "Pound sterling",
+            "Canadian dollar",
+            "Australian dollar",
+            "Swiss franc",
+            "Chinese yuan / renminbi",
+            "Mexican peso",
+            "Brazilian real",
+            "Indian rupee",
+            "Russian ruble",
+            "Turkish lira",
+            "currencies"
+          ]
+        },
+        {
+          "category_template": "Currency Market Volatility",
+          "underlying_specific_entities": [
+            "currency market volatility"
+          ]
+        },
+        {
+          "category_template": "Foreign Exchange Reserves Levels",
+          "underlying_specific_entities": [
+            "foreign exchange reserves levels",
+            "reserves (forex)"
+          ]
+        },
+        {
+          "category_template": "Impact of Currency Movements on Trade and Inflation",
+          "underlying_specific_entities": [
+            "impact of currency movements on trade and inflation"
+          ]
+        }
+      ],
+      "Banking_And_Financial_Stability": [
+        {
+          "category_template": "Banking Sector Health and Lending Standards",
+          "underlying_specific_entities": [
+            "banking sector health",
+            "lending standards",
+            "banks",
+            "financial institutions",
+            "depository institutions",
+            "bank lending standards"
+          ]
+        },
+        {
+          "category_template": "Financial System Stability and Systemic Risk",
+          "underlying_specific_entities": [
+            "financial system stability",
+            "systemic risk indicators"
+          ]
+        },
+        {
+          "category_template": "Bank Capital and Liquidity",
+          "underlying_specific_entities": [
+            "bank capital adequacy",
+            "bank liquidity",
+            "deposits"
+          ]
+        },
+        {
+          "category_template": "Stress Testing for Financial Institutions",
+          "underlying_specific_entities": [
+            "stress testing results for financial institutions"
+          ]
+        },
+        {
+          "category_template": "Nonperforming Loans and Provisions",
+          "underlying_specific_entities": [
+            "nonperforming loans",
+            "loan loss provisions"
+          ]
+        },
+        {
+          "category_template": "Developments in Financial Regulation and Supervision",
+          "underlying_specific_entities": [
+            "financial regulation developments",
+            "financial supervision developments"
+          ]
+        },
+        {
+          "category_template": "Consumer Financial Protection",
+          "underlying_specific_entities": [
+            "consumer financial protection issues"
+          ]
+        },
+        {
+          "category_template": "Payment System Integrity and Innovation",
+          "underlying_specific_entities": [
+            "payment system integrity and innovation"
+          ]
+        }
+      ],
+      "Financial_Innovation_And_Infrastructure": [
+        {
+          "category_template": "Fintech Developments",
+          "underlying_specific_entities": [
+            "fintech developments and impact on financial services"
+          ]
+        },
+        {
+          "category_template": "Digital Assets and Cryptocurrency Markets",
+          "underlying_specific_entities": [
+            "digital assets",
+            "cryptocurrency",
+            "Bitcoin",
+            "Ethereum",
+            "stablecoins"
+          ]
+        },
+        {
+          "category_template": "Central Bank Digital Currency (CBDC) Research",
+          "underlying_specific_entities": [
+            "central bank digital currency (CBDC) considerations"
+          ]
+        },
+        {
+          "category_template": "Blockchain Technology in Finance",
+          "underlying_specific_entities": [
+            "blockchain technology applications in finance"
+          ]
+        },
+        {
+          "category_template": "Cybersecurity in Financial Systems",
+          "underlying_specific_entities": [
+            "data security and cybersecurity in financial systems"
+          ]
+        },
+        {
+          "category_template": "AI and Machine Learning in Finance",
+          "underlying_specific_entities": [
+            "developments in artificial intelligence (AI) and machine learning in finance"
+          ]
+        }
+      ]
+    },
+    "Core_Macroeconomic_Performance": {
+      "Household_Sector": [
+        {
+          "category_template": "Consumer Spending and Consumption Patterns",
+          "underlying_specific_entities": [
+            "consumption",
+            "consumer spending",
+            "household spending",
+            "retail sales",
+            "auto sales",
+            "durable goods",
+            "consumer goods",
+            "domestic final purchases",
+            "gross domestic purchases",
+            "final sales",
+            "outlays (household)"
+          ]
+        },
+        {
+          "category_template": "Consumer Confidence and Sentiment",
+          "underlying_specific_entities": [
+            "consumer confidence",
+            "consumer sentiment"
+          ]
+        },
+        {
+          "category_template": "Household Income, Savings, and Wealth",
+          "underlying_specific_entities": [
+            "income",
+            "real income",
+            "household net worth",
+            "savings",
+            "personal saving rate"
+          ]
+        },
+        {
+          "category_template": "Household Debt and Serviceability",
+          "underlying_specific_entities": [
+            "household debt",
+            "mortgage debt",
+            "home equity loans",
+            "consumer credit"
+          ]
+        },
+        {
+          "category_template": "Wage Growth and Employment Costs",
+          "underlying_specific_entities": [
+            "wages",
+            "wage growth",
+            "employment cost",
+            "hourly compensation",
+            "compensation per hour",
+            "salaries",
+            "wage pressures"
+          ]
+        }
+      ],
+      "Business_Sector": [
+        {
+          "category_template": "Business Investment and Capital Expenditures",
+          "underlying_specific_entities": [
+            "investment",
+            "business investment",
+            "business spending",
+            "capital expenditures",
+            "equipment",
+            "machinery",
+            "structures (business)",
+            "nondefense capital goods",
+            "plants (industrial)",
+            "leasing (business equipment)"
+          ]
+        },
+        {
+          "category_template": "Inventory Levels and Cycles",
+          "underlying_specific_entities": [
+            "inventories",
+            "inventory investment",
+            "finished goods inventory",
+            "intermediate materials inventory",
+            "raw materials inventory"
+          ]
+        },
+        {
+          "category_template": "Manufacturing and Services Sector Activity",
+          "underlying_specific_entities": [
+            "manufacturing activity",
+            "industrial production",
+            "services activity",
+            "PMI (Purchasing Managers' Index)",
+            "capacity utilization",
+            "utilization",
+            "new orders",
+            "shipments",
+            "factory activity"
+          ]
+        },
+        {
+          "category_template": "Corporate Profits and Pricing Power",
+          "underlying_specific_entities": [
+            "profits",
+            "corporate profits",
+            "business pricing power",
+            "profit margins"
+          ]
+        },
+        {
+          "category_template": "Business Confidence and Outlook",
+          "underlying_specific_entities": [
+            "business confidence",
+            "business outlook"
+          ]
+        },
+        {
+          "category_template": "Small Business Conditions",
+          "underlying_specific_entities": [
+            "small business conditions"
+          ]
+        },
+        {
+          "category_template": "Supply Chain Dynamics",
+          "underlying_specific_entities": [
+            "supply chain dynamics and disruptions"
+          ]
+        },
+        {
+          "category_template": "Business Creation and Bankruptcy",
+          "underlying_specific_entities": [
+            "business creation and bankruptcy trends"
+          ]
+        },
+        {
+          "category_template": "General Business Activity and Entities",
+          "underlying_specific_entities": [
+            "business activity (general)",
+            "manufacturing firms",
+            "producers",
+            "industries",
+            "firms",
+            "corporations"
+          ]
+        }
+      ],
+      "External_Sector": {
+        "Trade_Flows_And_Balances": [
+          {
+            "category_template": "International Trade Flows",
+            "underlying_specific_entities": [
+              "exports",
+              "imports",
+              "net exports",
+              "merchandise trade",
+              "export growth",
+              "oil imports"
+            ]
+          },
+          {
+            "category_template": "Trade and Current Account Balances",
+            "underlying_specific_entities": [
+              "trade balance",
+              "trade deficit",
+              "trade surplus",
+              "current account"
+            ]
+          },
+          {
+            "category_template": "Import/Export Prices",
+            "underlying_specific_entities": [
+              "import prices",
+              "export prices",
+              "terms of trade"
+            ]
+          }
+        ],
+        "Global_Economic_Conditions_And_Influences": [
+          {
+            "category_template": "Global Economic Growth and Outlook",
+            "underlying_specific_entities": [
+              "global economic growth",
+              "global economic outlook",
+              "global demand"
+            ]
+          },
+          {
+            "category_template": "Conditions in Key Foreign Economies",
+            "underlying_specific_entities": [
+              "foreign economies",
+              "advanced foreign economies",
+              "emerging market economies",
+              "developing countries",
+              "foreign industrial countries",
+              "major industrial countries",
+              "international developments"
+            ]
+          },
+          {
+            "category_template": "International Policy Spillovers",
+            "underlying_specific_entities": [
+              "international monetary policy spillovers",
+              "international financial conditions spillovers",
+              "foreign monetary policy"
+            ]
+          },
+          {
+            "category_template": "Geopolitical Risks and Economic Impact",
+            "underlying_specific_entities": [
+              "geopolitical risks economic impact"
+            ]
+          },
+          {
+            "category_template": "Global Trade Policy",
+            "underlying_specific_entities": [
+              "tariffs",
+              "trade agreements",
+              "international transactions",
+              "trade policy"
+            ]
+          }
+        ],
+        "Regional_And_Country_Specific_Conditions": [
+          {
+            "category_template": "Economic Developments in Major Economies/Regions",
+            "underlying_specific_entities": [
+              "China economy",
+              "Euro area economy",
+              "United Kingdom economy",
+              "Germany economy",
+              "Japan economy",
+              "Canada economy",
+              "Mexico economy",
+              "Brazil economy",
+              "Asia regional economy",
+              "Latin America regional economy",
+              "France economy",
+              "Italy economy",
+              "Korea (South) economy",
+              "Taiwan economy",
+              "Singapore economy",
+              "Philippines economy",
+              "Thailand economy",
+              "Indonesia economy",
+              "Argentina economy"
+            ]
+          }
+        ]
+      },
+      "Government_Sector": [
+        {
+          "category_template": "Fiscal Policy Stance",
+          "underlying_specific_entities": [
+            "fiscal policy",
+            "fiscal stimulus"
+          ]
+        },
+        {
+          "category_template": "Government Spending and Investment",
+          "underlying_specific_entities": [
+            "government spending",
+            "government purchases",
+            "defense spending",
+            "social security outlays",
+            "public investment",
+            "infrastructure spending"
+          ]
+        },
+        {
+          "category_template": "Government Revenues and Tax Policy",
+          "underlying_specific_entities": [
+            "taxes",
+            "tax policy"
+          ]
+        },
+        {
+          "category_template": "Government Debt and Budget Balance",
+          "underlying_specific_entities": [
+            "federal debt",
+            "budget deficit",
+            "government debt"
+          ]
+        },
+        {
+          "category_template": "Public Sector Employment",
+          "underlying_specific_entities": [
+            "public sector employment"
+          ]
+        },
+        {
+          "category_template": "Impact of Regulatory Changes",
+          "underlying_specific_entities": [
+            "regulatory environment impact"
+          ]
+        }
+      ],
+      "Aggregate_Economy_Indicators": [
+        {
+          "category_template": "Overall Economic Activity and Growth",
+          "underlying_specific_entities": [
+            "economic growth",
+            "economic activity",
+            "economy",
+            "GDP (Gross Domestic Product)",
+            "real GDP",
+            "nominal GDP",
+            "economic expansion",
+            "economic indicators",
+            "economic data"
+          ]
+        },
+        {
+          "category_template": "Potential Output and Output Gap",
+          "underlying_specific_entities": [
+            "potential output",
+            "output gap",
+            "economic slack"
+          ]
+        },
+        {
+          "category_template": "Productivity Growth",
+          "underlying_specific_entities": [
+            "productivity growth"
+          ]
+        },
+        {
+          "category_template": "Economic Cycle Phases",
+          "underlying_specific_entities": [
+            "recovery",
+            "recession",
+            "economic slowdown",
+            "crisis (economic context)"
+          ]
+        },
+        {
+          "category_template": "Composite Economic Indicators",
+          "underlying_specific_entities": [
+            "leading economic indicators",
+            "coincident economic indicators",
+            "lagging economic indicators"
+          ]
+        },
+        {
+          "category_template": "National Income and Wealth",
+          "underlying_specific_entities": [
+            "national income",
+            "national wealth"
+          ]
+        },
+        {
+          "category_template": "Output (General)",
+          "underlying_specific_entities": [
+            "output"
+          ]
+        }
+      ]
+    },
+    "Labor_Market_Conditions": {
+      "General_Labor_Indicators": [
+        {
+          "category_template": "Overall Labor Market Conditions",
+          "underlying_specific_entities": [
+            "labor market",
+            "labor market conditions",
+            "labor utilization",
+            "underutilization of labor resources",
+            "labor market tightness"
+          ]
+        },
+        {
+          "category_template": "Employment Levels and Job Growth",
+          "underlying_specific_entities": [
+            "employment",
+            "payrolls",
+            "jobs",
+            "job losses",
+            "job gains"
+          ]
+        },
+        {
+          "category_template": "Unemployment Rate Measures",
+          "underlying_specific_entities": [
+            "unemployment",
+            "unemployment rate",
+            "NAIRU (Non-Accelerating Inflation Rate of Unemployment)",
+            "natural rate of unemployment (u*)"
+          ]
+        },
+        {
+          "category_template": "Labor Force Participation",
+          "underlying_specific_entities": [
+            "labor force participation",
+            "labor force participation rate"
+          ]
+        },
+        {
+          "category_template": "Job Openings, Quits, and Hiring",
+          "underlying_specific_entities": [
+            "job openings",
+            "quits rate",
+            "hiring"
+          ]
+        },
+        {
+          "category_template": "Wage and Compensation Growth",
+          "underlying_specific_entities": [
+            "employment cost",
+            "hourly compensation",
+            "compensation per hour",
+            "wages",
+            "wage growth",
+            "wage pressures",
+            "salaries"
+          ]
+        },
+        {
+          "category_template": "Labor Productivity and Unit Labor Costs",
+          "underlying_specific_entities": [
+            "productivity",
+            "output per hour",
+            "unit labor cost"
+          ]
+        },
+        {
+          "category_template": "Duration of Unemployment",
+          "underlying_specific_entities": [
+            "duration of unemployment",
+            "long-term unemployment trends"
+          ]
+        },
+        {
+          "category_template": "Demographic Trends in Labor Force",
+          "underlying_specific_entities": [
+            "demographic trends in labor force participation"
+          ]
+        },
+        {
+          "category_template": "Workers (General)",
+          "underlying_specific_entities": [
+            "workers"
+          ]
+        },
+        {
+          "category_template": "Working Hours",
+          "underlying_specific_entities": [
+             "hours"
+          ]
+        }
+      ],
+      "Key_Labor_Market_Reports_And_Surveys": [
+        {
+          "category_template": "Employment Situation Report (Non-Farm Payrolls) Findings",
+          "underlying_specific_entities": [
+            "nonfarm payrolls report"
+          ]
+        },
+        {
+          "category_template": "Job Openings and Labor Turnover Survey (JOLTS) Findings",
+          "underlying_specific_entities": [
+            "JOLTS data"
+          ]
+        },
+        {
+          "category_template": "Beige Book Commentary on Labor Markets",
+          "underlying_specific_entities": [
+            "Beige Book commentary on regional labor markets"
+          ]
+        },
+        {
+          "category_template": "Surveys on Employment Trends",
+          "underlying_specific_entities": [
+            "ADP employment report",
+            "initial claims for unemployment",
+            "jobless claims"
+          ]
+        }
+      ]
+    },
+    "Energy_Market_Conditions": [
+      {
+        "category_template": "Overall Energy Market Prices and Trends",
+        "underlying_specific_entities": [
+          "energy prices",
+          "crude oil prices",
+          "oil prices",
+          "natural gas prices",
+          "gasoline prices",
+          "gas prices",
+          "fuel prices",
+          "coal prices"
+        ]
+      },
+      {
+        "category_template": "Energy Production and Supply Dynamics",
+        "underlying_specific_entities": [
+          "energy production",
+          "oil production",
+          "crude oil production",
+          "natural gas production",
+          "energy supply",
+          "oil supply",
+          "gas supply",
+          "drilling activity",
+          "rigs",
+          "shale oil production",
+          "OPEC production"
+        ]
+      },
+      {
+        "category_template": "Energy Demand and Consumption",
+        "underlying_specific_entities": [
+          "energy demand",
+          "oil demand",
+          "gasoline demand",
+          "natural gas demand",
+          "energy consumption",
+          "fuel consumption"
+        ]
+      },
+      {
+        "category_template": "Energy Inventories and Reserves",
+        "underlying_specific_entities": [
+          "energy inventories",
+          "crude oil inventories",
+          "strategic petroleum reserve",
+          "gasoline inventories",
+          "natural gas storage"
+        ]
+      },
+      {
+        "category_template": "Energy Price Volatility and Economic Impact",
+        "underlying_specific_entities": [
+          "energy price volatility",
+          "energy price spikes",
+          "impact of energy prices on inflation",
+          "impact of energy prices on economy"
+        ]
+      },
+      {
+        "category_template": "Energy Sector Investment",
+        "underlying_specific_entities": [
+          "energy sector investment",
+          "oil and gas exploration",
+          "renewable energy investment"
+        ]
+      }
+    ],
+    "Housing_Market_Conditions": [
+      {
+        "category_template": "Overall Housing Market Activity",
+        "underlying_specific_entities": [
+          "housing market",
+          "real estate market",
+          "housing activity",
+          "real estate activity",
+          "home sales",
+          "housing starts",
+          "permits (housing)",
+          "residential real estate",
+          "housing demand",
+          "housing supply"
+        ]
+      },
+      {
+        "category_template": "Housing Prices and Affordability",
+        "underlying_specific_entities": [
+          "housing prices",
+          "home prices",
+          "rents",
+          "housing affordability",
+          "Case-Shiller Home Price Index"
+        ]
+      },
+      {
+        "category_template": "Mortgage Market Conditions",
+        "underlying_specific_entities": [
+          "mortgage rates",
+          "mortgage interest",
+          "mortgage (general)",
+          "mortgage applications",
+          "refinancing activity",
+          "mortgage credit availability"
+        ]
+      },
+      {
+        "category_template": "Residential Construction and Investment",
+        "underlying_specific_entities": [
+          "residential investment",
+          "construction (residential)",
+          "homes",
+          "buildings (residential)",
+          "nonresidential structures"
+        ]
+      },
+      {
+        "category_template": "Rental Market Dynamics",
+        "underlying_specific_entities": [
+          "rental market conditions",
+          "rental prices"
+        ]
+      },
+      {
+        "category_template": "Housing Supply and Inventory",
+        "underlying_specific_entities": [
+          "housing supply",
+          "housing inventory"
+        ]
+      },
+      {
+        "category_template": "Commercial Real Estate Market",
+        "underlying_specific_entities": [
+          "commercial real estate"
+        ]
+      },
+      {
+        "category_template": "Housing Market Corrections/Bubbles",
+        "underlying_specific_entities": [
+          "housing correction",
+          "housing bubble"
+        ]
+      }
+    ],
+    "Commodity_Market_Conditions": [
+      {
+        "category_template": "Overall Commodity Price Trends",
+        "underlying_specific_entities": [
+          "commodity prices",
+          "commodities",
+          "commodity price volatility"
+        ]
+      },
+      {
+        "category_template": "Agricultural Commodities",
+        "underlying_specific_entities": [
+          "corn",
+          "wheat",
+          "soybean",
+          "cotton",
+          "sugar",
+          "coffee",
+          "cocoa",
+          "livestock",
+          "cattle",
+          "farm products",
+          "crop",
+          "harvest",
+          "agriculture (commodity context)"
+        ]
+      },
+      {
+        "category_template": "Industrial Metals",
+        "underlying_specific_entities": [
+          "copper prices",
+          "aluminum prices",
+          "steel prices",
+          "metals",
+          "industrial metals",
+          "iron ore",
+          "nickel",
+          "zinc",
+          "lead",
+          "tin"
+        ]
+      },
+      {
+        "category_template": "Precious Metals",
+        "underlying_specific_entities": [
+          "gold prices",
+          "silver prices",
+          "gold",
+          "platinum",
+          "palladium"
+        ]
+      },
+      {
+        "category_template": "Food Price Dynamics",
+        "underlying_specific_entities": [
+          "food prices (commodity context)"
+        ]
+      },
+      {
+        "category_template": "Other Key Commodities",
+        "underlying_specific_entities": [
+          "lumber",
+          "chemicals (commodity context)",
+          "petroleum products (commodity context)",
+          "raw materials (commodity context)",
+          "fertilizers"
+        ]
+      }
+    ],
+    "Other_Sectoral_Conditions": {
+      "Transportation_And_Logistics": [
+        {
+          "category_template": "Transportation Sector Activity",
+          "underlying_specific_entities": [
+            "transportation sector activity",
+            "shipping",
+            "trucking",
+            "air freight",
+            "railroads",
+            "traffic"
+          ]
+        },
+        {
+          "category_template": "Logistics and Supply Chain Performance",
+          "underlying_specific_entities": [
+            "logistics performance",
+            "supply chain performance"
+          ]
+        }
+      ],
+      "Tourism_And_Travel": [
+        {
+          "category_template": "Tourism and Travel Industry Activity",
+          "underlying_specific_entities": [
+            "tourism",
+            "travel industry activity"
+          ]
+        }
+      ],
+      "Technology_And_Semiconductors": [
+        {
+          "category_template": "Technology Sector Performance",
+          "underlying_specific_entities": [
+            "technology sector performance",
+            "software industry",
+            "hardware industry",
+            "cloud computing industry"
+          ]
+        },
+        {
+          "category_template": "Semiconductor Market Dynamics",
+          "underlying_specific_entities": [
+            "semiconductor industry",
+            "semiconductors",
+            "chip shortage"
+          ]
+        },
+        {
+          "category_template": "Computers and Software (as sectors)",
+          "underlying_specific_entities": [
+            "computers (sector)",
+            "software (sector)"
+          ]
+        }
+      ],
+      "Automotive_Sector": [
+        {
+          "category_template": "Automotive Industry Production and Sales",
+          "underlying_specific_entities": [
+            "automotive industry",
+            "auto manufacturing",
+            "car sales",
+            "motor vehicles sales",
+            "EV market"
+          ]
+        },
+        {
+          "category_template": "Vehicle Types",
+          "underlying_specific_entities": [
+            "motor vehicles",
+            "cars",
+            "trucks"
+          ]
+        },
+        {
+          "category_template": "Automotive Parts",
+          "underlying_specific_entities": [
+            "automotive parts"
+          ]
+        }
+      ],
+      "Healthcare_Sector": [
+        {
+          "category_template": "Healthcare Sector Activity and Costs",
+          "underlying_specific_entities": [
+            "healthcare sector",
+            "health care costs"
+          ]
+        },
+        {
+          "category_template": "Health Care (General)",
+          "underlying_specific_entities": [
+            "health care"
+          ]
+        }
+      ],
+      "Retail_And_Wholesale": [
+        {
+          "category_template": "Retail and Wholesale Trade Activity",
+          "underlying_specific_entities": [
+            "retail trade activity",
+            "wholesale trade activity",
+            "e-commerce activity"
+          ]
+        },
+        {
+          "category_template": "Retail Trade (General)",
+          "underlying_specific_entities": [
+            "retail trade"
+          ]
+        },
+        {
+          "category_template": "Wholesale Trade (General)",
+          "underlying_specific_entities": [
+            "wholesale trade"
+          ]
+        },
+        {
+          "category_template": "Merchandise Trade (Sectoral)",
+          "underlying_specific_entities": [
+            "merchandise"
+          ]
+        },
+        {
+          "category_template": "Consumer Goods Sector",
+          "underlying_specific_entities": [
+            "consumer goods (sector)"
+          ]
+        },
+        {
+          "category_template": "Apparel Sector",
+          "underlying_specific_entities": [
+            "apparel (sector)"
+          ]
+        }
+      ],
+      "Manufacturing_General": [
+        {
+          "category_template": "General Manufacturing Conditions",
+          "underlying_specific_entities": [
+            "general manufacturing conditions"
+          ]
+        },
+        {
+          "category_template": "Factory Output (General)",
+          "underlying_specific_entities": [
+            "factory output",
+            "factory (general)"
+          ]
+        }
+      ],
+      "Mining_And_Materials_General": [
+        {
+          "category_template": "General Mining and Materials Conditions",
+          "underlying_specific_entities": [
+            "mining (sector)"
+          ]
+        }
+      ],
+      "Agriculture_General": [
+        {
+          "category_template": "General Agricultural Conditions",
+          "underlying_specific_entities": [
+            "agriculture (sector)"
+          ]
+        }
+      ],
+      "Services_General": [
+        {
+          "category_template": "General Services Sector Conditions",
+          "underlying_specific_entities": [
+            "services (sector)"
+          ]
+        }
+      ]
+    }
+  },
+  "Inflation_Analysis": {
+    "Official_Price_Metrics": [
+      {
+        "category_template": "Headline Inflation Measures",
+        "underlying_specific_entities": [
+          "inflation",
+          "headline inflation",
+          "CPI (Consumer Price Index)",
+          "consumer prices",
+          "PCE (Personal Consumption Expenditures) price index",
+          "retail prices",
+          "wholesale prices",
+          "deflator"
+        ]
+      },
+      {
+        "category_template": "Core Inflation Measures",
+        "underlying_specific_entities": [
+          "core inflation",
+          "core PCE",
+          "core Personal Consumption Expenditures",
+          "core CPI"
+        ]
+      },
+      {
+        "category_template": "Alternative Inflation Measures (Trimmed Mean, Median)",
+        "underlying_specific_entities": [
+          "trimmed mean inflation",
+          "median inflation"
+        ]
+      },
+      {
+        "category_template": "Producer Price Index (PPI) Trends",
+        "underlying_specific_entities": [
+          "producer prices",
+          "PPI (Producer Price Index)"
+        ]
+      },
+      {
+        "category_template": "Import and Export Prices",
+        "underlying_specific_entities": [
+          "import prices",
+          "export prices"
+        ]
+      },
+      {
+        "category_template": "Price Stability and Inflation Targets",
+        "underlying_specific_entities": [
+          "price stability",
+          "inflation target"
+        ]
+      }
+    ],
+    "Market_Based_Inflation_Expectations": [
+      {
+        "category_template": "Market-Implied Inflation Expectations",
+        "underlying_specific_entities": [
+          "TIPS breakeven inflation rates",
+          "inflation swaps",
+          "inflation compensation"
+        ]
+      },
+      {
+        "category_template": "Inflation Risk Premium",
+        "underlying_specific_entities": [
+          "inflation risk premium"
+        ]
+      },
+      {
+        "category_template": "Forward Inflation Expectation Rates",
+        "underlying_specific_entities": [
+          "5-year, 5-year forward inflation expectation rate"
+        ]
+      }
+    ],
+    "Survey_Based_Inflation_Expectations": [
+      {
+        "category_template": "Survey-Based Inflation Expectations (Overall)",
+        "underlying_specific_entities": [
+          "inflation expectations (survey-based)",
+          "market expectations (inflation related)"
+        ]
+      },
+      {
+        "category_template": "Key Inflation Expectation Surveys",
+        "underlying_specific_entities": [
+          "University of Michigan Consumer Sentiment Index (inflation expectations component)",
+          "Federal Reserve Bank of New York Survey of Consumer Expectations",
+          "Survey of Professional Forecasters (SPF)"
+        ]
+      }
+    ],
+    "Inflation_Drivers_And_Dynamics": [
+      {
+        "category_template": "Specific Factor Impacts on Inflation",
+        "underlying_specific_entities": [
+          "energy price driven inflation",
+          "food price driven inflation",
+          "supply chain disruption driven inflation",
+          "labor cost and wage driven inflation",
+          "fiscal policy and stimulus driven inflation",
+          "commodity price shock driven inflation",
+          "oil price shock driven inflation",
+          "gasoline price shock driven inflation",
+          "import price driven inflation",
+          "input cost driven inflation",
+          "geopolitical risk driven inflation",
+          "currency movement driven inflation",
+          "housing cost driven inflation",
+          "transportation cost driven inflation",
+          "production bottleneck driven inflation",
+          "general price pressures impact on inflation",
+          "general cost pressures impact on inflation",
+          "general supply shocks impact on inflation"
+        ]
+      },
+      {
+        "category_template": "Inflation Persistence Assessment",
+        "underlying_specific_entities": [
+          "assessment of inflation persistence (transitory vs. persistent)"
+        ]
+      },
+      {
+        "category_template": "Wage-Price Dynamics",
+        "underlying_specific_entities": [
+          "wage-price dynamics and risks of spirals"
+        ]
+      },
+      {
+        "category_template": "Global Inflation Spillovers",
+        "underlying_specific_entities": [
+          "global inflation spillovers and imported inflation"
+        ]
+      }
+    ]
+  },
+  "Central_Banking_Operations_Frameworks_And_Oversight": {
+    "Monetary_Policy_Objectives_And_Framework": [
+      {
+        "category_template": "Dual Mandate of the Federal Reserve",
+        "underlying_specific_entities": [
+          "Federal Reserve's dual mandate (price stability, maximum employment)"
+        ]
+      },
+      {
+        "category_template": "Monetary Policy Strategy and Framework",
+        "underlying_specific_entities": [
+          "monetary policy strategy",
+          "monetary policy framework (e.g., inflation targeting, AIT)"
+        ]
+      },
+      {
+        "category_template": "Central Bank Governance Principles",
+        "underlying_specific_entities": [
+          "central bank independence",
+          "central bank credibility",
+          "central bank transparency",
+          "central bank accountability"
+        ]
+      },
+      {
+        "category_template": "Monetary-Fiscal Policy Interaction",
+        "underlying_specific_entities": [
+          "interaction between monetary and fiscal policy"
+        ]
+      },
+      {
+        "category_template": "Financial Stability Considerations in Monetary Policy",
+        "underlying_specific_entities": [
+          "financial stability considerations in monetary policy"
+        ]
+      }
+    ],
+    "Conventional_Monetary_Policy_Tools": {
+      "Open_Market_Operations": [
+        {
+          "category_template": "Open Market Operations (OMOs)",
+          "underlying_specific_entities": [
+            "open market operations"
+          ]
+        },
+        {
+          "category_template": "Repurchase and Reverse Repurchase Operations",
+          "underlying_specific_entities": [
+            "repurchase agreement (repo)",
+            "reverse repurchase agreement (reverse repo)"
+          ]
+        }
+      ],
+      "Standing_Facilities": [
+        {
+          "category_template": "Standing Facilities Usage and Terms",
+          "underlying_specific_entities": [
+            "discount window"
+          ]
+        }
+      ],
+      "Policy_Interest_Rates_Management": [
+        {
+          "category_template": "Management of Key Policy Rates",
+          "underlying_specific_entities": [
+            "federal funds rate management",
+            "interest on reserve balances (IORB)"
+          ]
+        },
+        {
+          "category_template": "Effective Federal Funds Rate (EFFR) Developments",
+          "underlying_specific_entities": [
+            "effective federal funds rate (EFFR) developments"
+          ]
+        }
+      ],
+      "Reserve_Requirements": [
+        {
+          "category_template": "Reserve Requirements Status and Impact",
+          "underlying_specific_entities": [
+            "reserve requirements",
+            "reserves (bank)"
+          ]
+        }
+      ]
+    },
+    "Unconventional_Monetary_Policy_Tools": {
+      "Asset_Purchase_Programs_Quantitative_Easing_QE": [
+        {
+          "category_template": "Quantitative Easing (QE) Program Details",
+          "underlying_specific_entities": [
+            "quantitative easing (QE)",
+            "asset purchases",
+            "securities purchases"
+          ]
+        },
+        {
+          "category_template": "Impact of QE on Balance Sheet and Financial Conditions",
+          "underlying_specific_entities": [
+            "impact of QE on balance sheet and financial conditions"
+          ]
+        }
+      ],
+      "Balance_Sheet_Reduction_Quantitative_Tightening_QT": [
+        {
+          "category_template": "Quantitative Tightening (QT) Strategy",
+          "underlying_specific_entities": [
+            "quantitative tightening (QT)",
+            "balance sheet normalization"
+          ]
+        },
+        {
+          "category_template": "Impact of QT on Balance Sheet and Financial Conditions",
+          "underlying_specific_entities": [
+            "impact of QT on balance sheet and financial conditions"
+          ]
+        }
+      ],
+      "Forward_Guidance_As_A_Tool": [
+        {
+          "category_template": "Nature and Use of Forward Guidance as a Policy Tool",
+          "underlying_specific_entities": [
+            "forward guidance (as a policy tool)"
+          ]
+        }
+      ],
+      "Negative_Interest_Rate_Policy_NIRP": [
+        {
+          "category_template": "Negative Interest Rate Policy (NIRP) Discussion",
+          "underlying_specific_entities": [
+            "negative interest rate policy (NIRP)"
+          ]
+        }
+      ],
+      "Credit_Easing_And_Liquidity_Support": [
+        {
+          "category_template": "Specific Credit and Liquidity Facilities",
+          "underlying_specific_entities": [
+            "TALF (Term Asset-Backed Securities Loan Facility)",
+            "CPFF (Commercial Paper Funding Facility)",
+            "MMLF (Money Market Mutual Fund Liquidity Facility)",
+            "PPPLF (Paycheck Protection Program Liquidity Facility)",
+            "liquidity facilities",
+            "Paycheck Protection Program (PPP)"
+          ]
+        },
+        {
+          "category_template": "Central Bank Liquidity Swaps",
+          "underlying_specific_entities": [
+            "central bank liquidity swaps"
+          ]
+        }
+      ],
+      "Yield_Curve_Control_YCC": [
+        {
+          "category_template": "Yield Curve Control (YCC) Discussion",
+          "underlying_specific_entities": [
+            "yield curve control (YCC)"
+          ]
+        }
+      ],
+      "Helicopter_Money_Direct_Transfers": [
+        {
+          "category_template": "Direct Monetary Financing Discussion",
+          "underlying_specific_entities": [
+            "direct monetary financing (helicopter money)"
+          ]
+        }
+      ],
+      "Other_Unconventional_Measures": [
+        {
+          "category_template": "Other Unconventional Policy Tools",
+          "underlying_specific_entities": [
+            "Operation Twist"
+          ]
+        }
+      ]
+    },
+    "Macroprudential_Policy_And_Financial_Stability_Oversight": [
+      {
+        "category_template": "Macroprudential Policy Tools and Application",
+        "underlying_specific_entities": [
+          "Countercyclical Capital Buffer (CCyB)",
+          "Loan-to-Value (LTV) restrictions",
+          "Debt-to-Income (DTI) restrictions",
+          "macroprudential tools"
+        ]
+      },
+      {
+        "category_template": "Systemic Risk Assessment and Financial Stability Reporting",
+        "underlying_specific_entities": [
+          "systemic risk assessment",
+          "financial stability reports"
+        ]
+      },
+      {
+        "category_template": "Stress Testing of the Financial System",
+        "underlying_specific_entities": [
+          "stress testing (system-wide)"
+        ]
+      },
+      {
+        "category_template": "Regulation of Non-Bank Financial Intermediation and FMIs",
+        "underlying_specific_entities": [
+          "shadow banking regulation",
+          "financial market infrastructure (FMI) regulation"
+        ]
+      }
+    ],
+    "Financial_Supervision_And_Regulation_Microprudential": [
+      {
+        "category_template": "Supervision of Individual Financial Institutions",
+        "underlying_specific_entities": [
+          "bank supervision",
+          "financial institution supervision"
+        ]
+      },
+      {
+        "category_template": "Application of Prudential Standards",
+        "underlying_specific_entities": [
+          "prudential standards (e.g., Basel capital and liquidity requirements)"
+        ]
+      },
+      {
+        "category_template": "Consumer Financial Protection",
+        "underlying_specific_entities": [
+          "consumer financial protection enforcement"
+        ]
+      },
+      {
+        "category_template": "AML/CFT Efforts",
+        "underlying_specific_entities": [
+          "anti-money laundering (AML) efforts",
+          "combating financing of terrorism (CFT) efforts"
+        ]
+      }
+    ],
+    "Emerging_Policy_Considerations_And_Research": [
+      {
+        "category_template": "Central Bank Research on Emerging Topics",
+        "underlying_specific_entities": [
+          "CBDC research",
+          "climate change and central banking research",
+          "inequality and monetary policy research",
+          "fintech impact research"
+        ]
+      }
+    ]
+  },
+  "Policy_Communication_And_Guidance": {
+    "Forward_Guidance_Statements_And_Elements": [
+      {
+        "category_template": "Forward Guidance Content and Interpretation",
+        "underlying_specific_entities": [
+          "forward guidance"
+        ]
+      },
+      {
+        "category_template": "Communicated Assessment of Risks to Economic Outlook",
+        "underlying_specific_entities": [
+          "balance of risks",
+          "economic outlook (communicated)"
+        ]
+      },
+      {
+        "category_template": "Fed's Characterization of Future Policy Path",
+        "underlying_specific_entities": [
+          "future policy path",
+          "likely path of interest rates",
+          "appropriate monetary policy",
+          "policy stance",
+          "policy accommodation",
+          "gradual adjustment"
+        ]
+      },
+      {
+        "category_template": "Analysis of Official Communications for Guidance",
+        "underlying_specific_entities": [
+          "FOMC minutes analysis",
+          "FOMC statement analysis",
+          "policymaker speech analysis"
+        ]
+      }
+    ],
+    "Economic_Projections_And_Forecasts": [
+      {
+        "category_template": "Summary of Economic Projections (SEP) Details",
+        "underlying_specific_entities": [
+          "SEP (Summary of Economic Projections)",
+          "median FOMC projections",
+          "longer-run projections",
+          "potential growth rate (projection)",
+          "longer-run unemployment rate (projection)",
+          "equilibrium real interest rate (r*) (projection)",
+          "natural rate of unemployment (u*) (projection)",
+          "longer-run PCE inflation (projection)",
+          "dot plot"
+        ]
+      },
+      {
+        "category_template": "Underlying Assumptions for Projections",
+        "underlying_specific_entities": [
+          "longer-run projection assumptions"
+        ]
+      },
+      {
+        "category_template": "Uncertainty in Economic Projections",
+        "underlying_specific_entities": [
+          "projection uncertainty",
+          "confidence intervals for projections"
+        ]
+      }
+    ],
+    "Policy_Shift_Signals_And_Deliberations": [
+      {
+        "category_template": "Signals of Potential Monetary Policy Shifts",
+        "underlying_specific_entities": [
+          "policy reassessment signals",
+          "change in stance signals",
+          "tightening bias signals",
+          "easing bias signals",
+          "pivot signals",
+          "policy normalization path signals",
+          "policy stance adjustment signals"
+        ]
+      },
+      {
+        "category_template": "FOMC Members' Views and Dissents",
+        "underlying_specific_entities": [
+          "FOMC members' views on policy",
+          "FOMC dissents"
+        ]
+      },
+      {
+        "category_template": "Market Interpretation of Fed Communication",
+        "underlying_specific_entities": [
+          "market interpretation of Fed signals"
+        ]
+      }
+    ]
+  },
+  "Significant_External_Events_And_Shocks": [
+    {
+      "category_template": "Major Economic Shocks and Event Impacts",
+      "underlying_specific_entities": [
+        "COVID-19 pandemic economic impact",
+        "Russia-Ukraine conflict economic impact",
+        "geopolitical conflict economic impact",
+        "natural disaster economic impact (hurricanes, droughts, wildfires, weather events)",
+        "financial crisis economic impact (GFC 2008, banking stress, SVB failure)",
+        "energy supply shock economic impact",
+        "trade war economic impact",
+        "cyberattack financial system impact",
+        "climate-related financial risk shocks",
+        "government shutdown economic impact",
+        "debt ceiling crisis economic impact",
+        "September 11 attacks economic impact",
+        "Brexit referendum economic impact",
+        "protest/riot economic disruptions",
+        "major strike economic disruptions"
+      ]
+    }
+  ],
+  "Actors_And_Institutions": {
+    "Central_Banks_And_Monetary_Authorities": [
+      {
+        "category_template": "Federal Reserve System and Components",
+        "underlying_specific_entities": [
+          "U.S. Federal Reserve",
+          "Federal Open Market Committee (FOMC)",
+          "Federal Reserve Board",
+          "Federal Reserve Bank of New York",
+          "Federal Reserve Bank of St. Louis",
+          "Federal Reserve Bank of Philadelphia",
+          "Federal Reserve Bank of San Francisco",
+          "Federal Reserve Bank of Cleveland",
+          "Federal Reserve Bank of Chicago",
+          "Federal Reserve Bank of Dallas",
+          "Federal Reserve Bank of Boston",
+          "Federal Reserve Bank of Kansas City",
+          "Federal Reserve Bank of Atlanta",
+          "Federal Reserve Bank of Richmond"
+        ]
+      },
+      {
+        "category_template": "Other Major Central Banks",
+        "underlying_specific_entities": [
+          "European Central Bank (ECB)",
+          "Bank of Japan (BoJ)",
+          "People's Bank of China (PBoC)",
+          "Bank of England (BoE)",
+          "Bank of Canada (BoC)",
+          "Reserve Bank of Australia (RBA)",
+          "Swiss National Bank (SNB)",
+          "Reserve Bank of New Zealand (RBNZ)",
+          "Bank of Korea",
+          "Reserve Bank of India",
+          "Central Bank of Brazil",
+          "Bank of Mexico",
+          "Central Bank of the Republic of Turkey",
+          "Bank Indonesia",
+          "Bank Negara Malaysia",
+          "Bangko Sentral ng Pilipinas",
+          "Bank of Thailand",
+          "Central banks (general reference)"
+        ]
+      }
+    ],
+    "Government_Bodies_And_Regulatory_Agencies": [
+      {
+        "category_template": "U.S. Government Bodies",
+        "underlying_specific_entities": [
+          "US Government",
+          "Federal government",
+          "The Biden Administration",
+          "Congress",
+          "Senate",
+          "House of Representatives",
+          "Treasury Department",
+          "Internal Revenue Service (IRS)",
+          "Department of Labor",
+          "Department of Commerce",
+          "Bureau of Economic Analysis (BEA)",
+          "Census Bureau",
+          "Securities and Exchange Commission (SEC)",
+          "Commodity Futures Trading Commission (CFTC)",
+          "Office of the Comptroller of the Currency (OCC)",
+          "Federal Deposit Insurance Corp. (FDIC)",
+          "Consumer Financial Protection Bureau (CFPB)",
+          "Federal Housing Finance Agency (FHFA)",
+          "Financial Stability Oversight Council (FSOC)",
+          "Congressional Budget Office (CBO)"
+        ]
+      },
+      {
+        "category_template": "International Regulatory Bodies and Foreign Government Agencies",
+        "underlying_specific_entities": [
+          "international regulatory bodies",
+          "foreign government agencies impacting U.S. policy"
+        ]
+      }
+    ],
+    "International_Organizations_And_Multilateral_Groups": [
+      {
+        "category_template": "Major International Organizations",
+        "underlying_specific_entities": [
+          "United Nations (UN)",
+          "World Health Organization (WHO)",
+          "International Monetary Fund (IMF)",
+          "World Bank",
+          "World Trade Organization (WTO)",
+          "Bank for International Settlements (BIS)",
+          "Organisation for Economic Co-operation and Development (OECD)",
+          "Group of Seven (G7)",
+          "Group of Twenty (G20)",
+          "OPEC",
+          "OPEC+",
+          "International Energy Agency (IEA)",
+          "NATO"
+        ]
+      }
+    ],
+    "Economic_Actors_And_Market_Participants": [
+      {
+        "category_template": "Broad Economic Actors",
+        "underlying_specific_entities": [
+          "households",
+          "businesses",
+          "investors",
+          "consumers",
+          "workers",
+          "firms",
+          "corporations",
+          "employers",
+          "market participants"
+        ]
+      },
+      {
+        "category_template": "Specific Market Segments or Participant Groups",
+        "underlying_specific_entities": [
+          "financial institutions (as actors)",
+          "economists",
+          "analysts",
+          "banks (as actors)",
+          "insurance companies (as actors)",
+          "contractors"
+        ]
+      }
+    ]
+  }
+}

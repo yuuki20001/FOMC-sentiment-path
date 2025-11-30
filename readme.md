@@ -1,3 +1,7 @@
+# Overview
+Fedspeak—the stylized discourse used in Federal Open Market Committee (FOMC) communications—carries implicit policy signals that steer global markets. This repository accompanies our paper and releases an LLM-based, uncertainty-aware pipeline that ingests FOMC transcripts and classifies policy stance (hawkish/neutral/dovish) while logging the reasoning trail.
+
+We enrich prompts with monetary-policy transmission priors so the model grounds its chain-of-thought in central-bank mechanics. A dynamic uncertainty decoder computes Epistemic Ambiguity (EA) and Confidence Ratio (CR) during generation, enabling adaptive switching between aggressive (greedy) and conservative (neutral or sampling) strategies. Experimental evidence shows state-of-the-art accuracy plus a strong positive correlation between perceived uncertainty and actual errors, making EA/CR valuable diagnostics for forecasting, algorithmic trading, and policy analytics.
 
 # Core environment:
 Python 3.10.18
@@ -39,4 +43,8 @@ After running the script, it will generate the corresponding logits and metadata
 You should set the hyperparameter configuration in ``hyper_para_search.py``.
 
 Then, fill in the paths to these files in ``run_search.sh`` and update the input file path(logits, metadata), model path, and output path accordingly. Running this script ( ``bash run_search.sh``) will produce the hyperparameter search results and the final statistical report.
+
+# Stance uncertainty inference
+- `uncertainty_workflow/stance_uncertainty_infer_batch.py`: Batch decoder that loads the LoRA model, applies regex-guided JSON generation, and computes uncertainty scores; tune `--val_dataset`, `--result_path`, `--logtoku_k`, `--uncertainty_method`, plus the strategy/threshold flags before running.
+- `uncertainty_workflow/stance_uncertainty_infer_qwen3-14B-5epoch.sh`: Convenience launcher for the Qwen3-14B 5-epoch LoRA checkpoint; it exports CUDA env vars and forwards the recommended CLI arguments. Update the `--model`, dataset, and output paths to match your environment before running.
 
