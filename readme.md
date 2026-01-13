@@ -1,50 +1,103 @@
-# Overview
-Fedspeak—the stylized discourse used in Federal Open Market Committee (FOMC) communications—carries implicit policy signals that steer global markets. This repository accompanies our paper and releases an LLM-based, uncertainty-aware pipeline that ingests FOMC transcripts and classifies policy stance (hawkish/neutral/dovish) while logging the reasoning paths.
+# FOMC-sentiment-path
 
-we augment the input texts by extracting financial entity relations and reasoning over monetary policy transmission paths using structured templates. We introduce a dynamic uncertainty decoding module with a PU metric that helps identify potentially unreliable predictions, aiming to improve overall prediction reliability. 
+## Overview
 
-# Core environment:
-Python 3.10.18
+This repository accompanies our paper *Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths* (AAAI 2026) and provides an end-to-end codebase for:
 
-ms-swift==3.6.2
+- Deciphering Fedspeak and classifying the underlying monetary policy stance (`HAWKISH` / `NEUTRAL` / `DOVISH`) with an LLM-based pipeline.
+- Enriching inputs with domain-specific reasoning grounded in the monetary policy transmission mechanism (via structured prompt templates).
+- Running uncertainty-aware decoding to quantify prediction confidence and support downstream analysis (including scripts for logits capture and hyperparameter search).
 
-transformers==4.52.4
+## Repository Structure
 
-torch==2.5.1+cu121
+- `dataset/`: Datasets and intermediate artifacts (e.g., `.jsonl`).
+- `prompt_template/`: Structured prompt templates for input construction/enrichment.
+- `sft_workflow/`: Supervised Fine-Tuning (SFT) workflows (based on `ms-swift`).
+- `uncertainty_workflow/`: Uncertainty workflows (logits capture, hyperparameter search, uncertainty-aware inference).
+- `GT_data/`: Ground-truth annotations and evaluation data.
 
-flash-attn==2.7.1.post1
 
-outlines==1.1.1
+## Requirements
 
-outlines-core==0.1.26
+The project is typically run in a conda environment named `fin_path`. A reference set of core dependencies used by the `uncertainty_workflow/` scripts:
 
-# how to use sft_workflow
-Before running the ``.sh`` script, please make sure that the ms-swift framework and all required dependencies (including flash-attention, deepzero, etc.) have been properly installed. 
-After installation, fill in the corresponding file paths in the script as needed.
-Then you can run ``bash train_Qwen3-14B-lora-no_think_step_save.sh``.
+- Python 3.10
+- `ms-swift==3.6.2`
+- `transformers==4.52.4`
+- `torch==2.5.1+cu121`
+- `flash-attn==2.7.1.post1`
+- `outlines==1.1.1`
+- `outlines-core==0.1.26`
 
-# How to use Uncertainty workflow
-Configure the following parameters in batch_capture_search_seed.py:
-- Path to the input data file
-- Path to the model
-- path to the output file
-- Random seed
-- Dataset type & model type
+## Quick Start
 
-run ``python batch_capture_search_seed.py --model_selection all --run_mode all``
+1) Create and activate an environment (example)
 
-Note:
-``--model_selection all`` for all model in "MODEL_CONFIG", if you want to run single model, use: ``--model_selection Qwen3-14B-5epoch-v0``
+```bash
+conda create -n fin_path python=3.10 -y
+conda activate fin_path
+```
+2) Supervised Fine-Tuning (SFT) workflow
 
-if only run "Qwen3-14B-5epoch-v0", "test set", run ``python batch_capture_search_seed.py --model_selection Qwen3-14B-5epoch-v0 --run_mode test``
+The `sft_workflow/` directory contains shell launchers for training/inference/merging LoRA adapters using the `ms-swift` framework. Please follow the official installation instructions in the [`ms-swift`](https://github.com/modelscope/ms-swift), then edit paths inside the scripts before running them:
 
-After running the script, it will generate the corresponding logits and metadata files.
+- `sft_workflow/train_Qwen3-14B-lora-no_think_step_save.sh`
+- `sft_workflow/infer_Qwen3-14B_lora_5epoch_no_think_step_pt.sh`
+- `sft_workflow/merge_lora_adapter.sh`
 
-You should set the hyperparameter configuration in ``hyper_para_search.py``.
+3) Logits capture + hyperparameter search (for threshold/strategy analysis)
 
-Then, fill in the paths to these files in ``run_search.sh`` and update the input file path(logits, metadata), model path, and output path accordingly. Running this script ( ``bash run_search.sh``) will produce the hyperparameter search results and the final statistical report.
+- Run `uncertainty_workflow/batch_capture_search_seed.py`  (needs to edit in-file config):
 
-# Stance uncertainty inference
-- `uncertainty_workflow/stance_uncertainty_infer_batch.py`: Batch decoder that loads the model, applies regex-guided JSON generation, and computes uncertainty scores; tune `--val_dataset`, `--result_path`, `--logtoku_k`, `--uncertainty_method`, plus the strategy/threshold flags before running.
-- `uncertainty_workflow/stance_uncertainty_infer_qwen3-14B-5epoch.sh`: Convenience launcher for the Qwen3-14B 5-epoch LoRA checkpoint; it exports CUDA env vars and forwards the recommended CLI arguments. Update the `--model`, dataset, and output paths to match your environment before running.
+```bash
+python batch_capture_search_seed.py --model_selection all --run_mode all
+```
+Note: `--model_selection all` for all model in "MODEL_CONFIG"
 
+4) Uncertainty-aware stance inference
+
+```bash
+python uncertainty_workflow/stance_uncertainty_infer_batch.py \
+  --model "your model path" \
+  --val_dataset "./dataset/test/test_sft_input_only_no_think.jsonl" \
+  --result_path "./output/results.jsonl" \
+  --batch_size 8 \
+  --max_new_tokens 1024 \
+  --logtoku_k 25 \
+  --uncertainty_method method1 \
+  --aggressive_strategy greedy_candidate \
+  --high_uncertainty_strategy cluster_sampling \
+  --uncertainty_threshold 0.02
+```
+
+Note: `--uncertainty_threshold` is an absolute uncertainty score cutoff, not a ratio. In our workflow it is typically selected from a percentile of the empirical uncertainty distribution (estimated via the hyperparameter search stage), then used as a fixed numeric threshold at inference time.
+
+To reproduce a recommended configuration, edit and run:
+
+```bash
+bash uncertainty_workflow/stance_uncertainty_infer_qwen3-14B-5epoch.sh
+```
+
+
+
+- Configure the search space in `uncertainty_workflow/hyper_para_search.py`, then fill paths in `uncertainty_workflow/run_search.sh` and run:
+
+```bash
+bash uncertainty_workflow/run_search.sh
+```
+
+
+
+## Disclaimer
+
+This repository is provided for research and educational purposes only. It does not constitute financial, investment, legal, or tax advice, and should not be relied upon for making trading or investment decisions. The authors and contributors make no representations or warranties regarding the accuracy, completeness, or suitability of the information or any outputs produced by the code. Use of this repository is at your own risk; you are solely responsible for complying with applicable laws and regulations and for any decisions or actions taken based on the results.
+
+## Citation
+```python
+@article{yao2025interpreting,
+  title={Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths},
+  author={Yao, Rui and Chai, Qi and Yao, Jinhai and Li, Siyuan and Chen, Junhao and Zhang, Qi and Wang, Hao},
+  journal={arXiv preprint arXiv:2508.08001},
+  year={2025}
+}
+```
